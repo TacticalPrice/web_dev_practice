@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Marks Calculator</h1>
+        <form id="marksForm">
+            <div class="row">
+                <div class="input-container">
+                    <label for="subject1">Subject 1:</label>
+                    <input type="number" id="subject1" required>
+                </div>
+                <div class="input-container">
+                    <label for="subject2">Subject 2:</label>
+                    <input type="number" id="subject2" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-container">
+                    <label for="subject3">Subject 3:</label>
+                    <input type="number" id="subject3" required>
+                </div>
+                <div class="input-container">
+                    <label for="subject4">Subject 4:</label>
+                    <input type="number" id="subject4" required>
+                </div>
+            </div>
+            <button type="button" onclick="calculatePercentage()">Calulate Percentage</button>
+
+        </form>
+        <div id="resultcontainer">
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
