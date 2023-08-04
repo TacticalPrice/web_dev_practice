@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Life Timer</h1>
+        <div class="timer">
+            <div id="years">0 years</div>
+            <div id="months">0 months</div>
+            <div id="days">0 days</div>
+            <div id="hours">0 hours</div>
+            <div id="minutes">0 minutes</div>
+            <div id="seconds">0 seconds</div>
+        </div>
+        <div class="settings" id="settingsIcon">
+            <i class = "fas fa fa-cog"></i>
+        </div>
+        <div class="birthdate-input" id = "birthdateinput">
+            <label for="birthdate">Enter your birth date:</label>
+            <input type="date" id = "birthdate">
+            <button id = "calculateBtn">Calculate</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
